@@ -9,7 +9,7 @@ class Dec2Hex
     {
        
 	if (args.length == 0) {
-  throw new Exception("No number has been inputted"); 
+  throw new IllegalArgumentException("No number has been entered"); 
 	}
 
 	if (args.length > 0) 
