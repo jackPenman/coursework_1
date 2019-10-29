@@ -10,7 +10,6 @@ class Dec2Hex
        
 	if (args.length == 0) {
   throw new Exception("No number has been inputted"); 
-  return;
 	}
 
 	if (args.length > 0) 
