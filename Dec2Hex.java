@@ -7,7 +7,12 @@ class Dec2Hex
 
     public static void main(String args[])
     {
-        if (args.length > 0) 
+       
+	if (args.length == 0) {
+  throw new IllegalArgumentException("No number has been entered"); 
+	}
+
+	if (args.length > 0) 
         {
             try 
             {
