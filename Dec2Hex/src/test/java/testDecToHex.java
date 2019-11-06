@@ -14,6 +14,7 @@ public class testDecToHex {
 
     @Test
     public void testMain () {
+	System.out.println("TESTING STARTED");
         Assert.assertEquals("A", testClass.main(args));
     }
 }
